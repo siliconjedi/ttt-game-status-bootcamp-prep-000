@@ -54,6 +54,12 @@ def over? (board)
   won?(board) || full?(board) || draw?(board)
 end
 
-
+def winner (board)
+  result = won?(board)
+  if !result
+    return nil;
+  win_index_1 = result[0]
+  return win_index_1
+end
 
     
