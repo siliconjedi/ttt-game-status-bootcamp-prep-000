@@ -60,7 +60,7 @@ def winner (board)
     return nil;
   end
   win_index_1 = result[0]
-  return win_index_1
+  return board[win_index_1]
 end
 
     
