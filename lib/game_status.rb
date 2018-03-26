@@ -50,6 +50,10 @@ def draw? (board)
   end
 end
 
+def over? (board)
+  won?(board) || full?(board) || draw?(board)
+end
+
 
 
     
